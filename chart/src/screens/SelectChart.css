@@ -1,0 +1,42 @@
+.select__chart{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bar__chart__section{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.pie__chart__section{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.bar__image{
+    width: 100px;
+    object-fit: contain;
+    cursor: pointer;
+    height: 80px
+}
+
+.pie__image{
+    width: 100px;
+    object-fit: contain;
+    cursor: pointer;
+    height: 80px;
+}
+
+.chart__section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
